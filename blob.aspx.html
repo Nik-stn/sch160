@@ -1,0 +1,69 @@
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Download
+</title>
+    
+        <style type="text/css">
+.customFile {
+width: 219px;
+cursor: default;
+height: 21px;
+z-index: 4;
+filter: alpha(opacity: 0);
+opacity: 0;
+margin-left: -140px;
+position: absolute;
+}
+
+.fakeDiv {
+z-index: 3;
+float: left;
+position: absolute;
+text-align:center;
+
+border: 1px solid silver;
+background-color: silver ;
+-khtml-border-radius: 6px;
+-o-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+behavior: url(images/pie.htc);
+padding: 2px 4px 2px 4px;
+}
+
+body, form{
+margin: 0px;
+padding: 0px;
+	background:  none;
+}
+
+</style>    
+    
+    
+</head>
+<body>
+    <form method="post" action="./blob.aspx?guid=23831" id="form1" enctype="multipart/form-data">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMTM5MDMwNTAwD2QWAgIDDxYCHgdlbmN0eXBlBRNtdWx0aXBhcnQvZm9ybS1kYXRhFgICAQ8WAh4JaW5uZXJodG1sBRfQktGL0LHRgNCw0YbRjCDRhNCw0LnQu2Rkj80fCvGJFOK2I50kV3A+iLBMDj8AlthTNJ7Bmp4I8D4=">
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="66394A4A">
+    
+<script type="text/jscript">
+    
+function SendFile(){
+    var obj=document.getElementById('FU');
+    if(obj.value!='') document.getElementById('ButtonDownload').click();
+}    
+
+
+</script>
+
+    <input type="file" name="FU" id="FU" class="customFile" onchange="SendFile()"><div id="ButtonLoad" class="fakeDiv">Выбраць файл</div>
+    
+    <input type="submit" name="ButtonDownload" value="Загрузить" id="ButtonDownload" style="display: none">
+    </form>
+</body>
+</html>
