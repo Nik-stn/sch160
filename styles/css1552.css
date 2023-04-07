@@ -500,6 +500,8 @@ body,
 
 .aside_box>.wrapper {
     overflow: hidden;
+    background: rgba(255, 255, 255, 0.726);
+    border: 2px solid #a0ccec;
 }
 
 .aside_box>h3 {
@@ -1235,8 +1237,10 @@ ul.guestbook {
     font-size: 1em;
     border: 2px solid #a0ccec;
     padding: 1em;
-    background-size: 300px 450px;
+    background: rgba(255, 255, 255, 0.726);
 }
+
+
 
 #content .ajax__tab_body h1 {
     font-size: 1.3em;

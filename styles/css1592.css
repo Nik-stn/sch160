@@ -1294,7 +1294,7 @@ body {
     line-height: 1.42857143;
     color: #333;
     /* бесшовный фон */
-    background: url(https://thumb.cloud.mail.ru/thumb/xw1/%D1%81%D0%B0%D0%B9%D1%82/background.png) ;
+    background: url(../back/i.jpg) ;
 }
 
 input,button,select,textarea {
