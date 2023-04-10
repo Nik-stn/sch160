@@ -20,9 +20,6 @@ img {
     border: 0;
 }
 
-a:link {
-    color: #004E88;
-}
 
 a:visited {
     color: #002F52;
@@ -139,7 +136,7 @@ body,
 #header {
     clear: both;
     position: relative;
-    background: #C8E8FF;
+    background: linear-gradient(to bottom, #feffff 0%,#90d7ff 100%);
 }
 
 #header>.wrapper {
@@ -150,8 +147,6 @@ body,
     line-height: 22px;
     padding: 2px 10px;
     font-size: 12px;
-    background-color: #E2F3FF;
-    border-bottom: solid 2px #a0ccec;
     text-align: right;
 }
 
@@ -167,8 +162,6 @@ body,
     overflow: hidden;
     background: #C8E8FF;
     position: relative;
-    display: flex;
-    justify-content: center;
 }
 
 #logo_image {
@@ -187,12 +180,11 @@ body,
 }
 
 #logo_block {
-    float: left;
     display: table;
     height: 150px;
     max-width: 100%;
     width: 65%;
-    margin-left: 20px;
+    margin: auto;
 }
 
 #logo_block_content {
@@ -215,7 +207,7 @@ body,
     width: 100%;
     text-align: center;
     line-height: 2.4em;
-    background: #A0CCEC;
+    background: linear-gradient(to bottom, #335e96 0%,#003278 100%);
 }
 
 #h_menu ul {
@@ -230,7 +222,11 @@ body,
 }
 
 #h_menu li:hover {
-    background-color: #288AC8;
+    background-color: #023379;
+    transition: all .3s linear;
+}
+
+#h_menu li:hover>a {
     color: #fafafa;
 }
 
@@ -250,8 +246,17 @@ body,
     position: relative;
 }
 
-#h_menu li a {
-    color: inherit;
+#h_menu .parent>a, #h_menu .parent~li>a {
+    color: #fff;
+    font-weight: 700;
+}
+
+#h_menu span a {
+    color: #fff;
+}
+
+#h_menu span a:visited {
+    color: #fff;
 }
 
 /* Пункт "Главная" (значок) */
@@ -290,9 +295,14 @@ body,
 /* Настройка отдельных уровней */
 #h_menu .level_1 {
     left: 0;
-    background: #D1ECFF;
+    background: #fff;
     font-size: 0.9em;
     line-height: 1.1em;
+    border-radius: 8px;
+}
+
+.level_0 .parent .level_1 a {
+    color: #000 ;
 }
 
 #h_menu .level_0>li:last-child ul {
@@ -500,8 +510,6 @@ body,
 
 .aside_box>.wrapper {
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.726);
-    border: 2px solid #a0ccec;
 }
 
 .aside_box>h3 {
@@ -549,7 +557,7 @@ body,
 
 #footer {
     clear: both;
-    background: #BEDBF1;
+    background: linear-gradient(to bottom, #90d7ff 0%,#feffff 100%);
     overflow: hidden;
 }
 
@@ -559,7 +567,7 @@ body,
 }
 
 #footer_line {
-    background: #E2F3FF;
+    background: linear-gradient(to bottom, #335e96 0%,#003278 100%);
     line-height: 0;
     height: 60px;
 }

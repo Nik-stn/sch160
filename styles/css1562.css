@@ -12,8 +12,7 @@ ul.bxslider {
 
 .bx-wrapper {
     position: relative;
-    margin: 0 auto 35px;
-    *zoom: 1;
+    margin: 35px auto ;
 }
 
 .bx-wrapper img {

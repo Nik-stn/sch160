@@ -212,7 +212,7 @@
 
 .home-icon-active .glyphicon-home,
 .glyphicon-home:hover {
-  background: #288ac8;
+  background: #023379;
   color: white;
 }
 
@@ -2102,7 +2102,6 @@ body.colorSiteBlue #optMenu .item-settings {
 @media screen and (min-width: 768px) {
   #h_menu {
     display: block;
-    border-bottom: solid 3px #d1ecff;
   }
 }
 
