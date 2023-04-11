@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    box-sizing: border-box;
 }
 
 a,
@@ -506,18 +507,29 @@ body,
     overflow: hidden;
     font-size: 0.9em;
     margin-bottom: 10px;
+    box-shadow: 10px 8px 10px 5px #d7e1ec79;
+}
+
+.aside_box.some_links {
+    box-shadow: unset;
 }
 
 .aside_box>.wrapper {
     overflow: hidden;
+    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.aside_box>.wrapper.no_bg {
+    background: 0;
 }
 
 .aside_box>h3 {
     margin: 0;
     padding: 0.25em 0.5em;
-    background: #a0ccec;
-    border-bottom: solid 2px #d1ecff;
+    background: #335e96;
+    border-bottom: solid 2px #becddd;
     font-size: 1.1em;
+    color: #fff;
 }
 
 .aside_box img {
@@ -1163,8 +1175,8 @@ ul.guestbook {
 
 .ya-site-form__input-text {
     line-height: 24px;
-    border-color: #a0ccec !important;
-    border: solid 3px #a0ccec !important;
+    /* border-color: #a0ccec !important; */
+    border: solid 3px #becddd !important;
     box-sizing: border-box;
     border-right: none !important;
     padding: 0 4px;
@@ -1174,12 +1186,12 @@ ul.guestbook {
 
 .ya-site-form__submit {
     display: block;
-    background: #a0ccec url(sm.aspx?guid=38623) 50% no-repeat;
+    background: #d7e1ec url(sm.aspx?guid=38623) 50% no-repeat;
     text-indent: -9999px;
     width: 30px !important;
     line-height: 24px;
     margin: 0 !important;
-    border: solid 3px #a0ccec;
+    border: solid 3px #becddd;
     box-sizing: border-box;
     border-radius: 0 4px 4px 0;
     border-left: none;
@@ -1210,16 +1222,19 @@ ul.guestbook {
 
 .edu_by .ajax__tab_header {
     font-size: 1em;
+    color: #fff;
 }
 
 .edu_by .ajax__tab_header .ajax__tab_outer {
     border-radius: 3px 3px 0 0;
-    background: #E2F3FF;
+    background: #335e96;
     margin-right: 1px;
 }
 
 .edu_by .ajax__tab_header .ajax__tab_outer:hover {
-    background: #a0ccec;
+    background: #fff;
+    color: #000;
+    transition: all .3s linear;
 }
 
 .edu_by .ajax__tab_header .ajax__tab_tab {
@@ -1233,7 +1248,7 @@ ul.guestbook {
 
 
 .edu_by .ajax__tab_active .ajax__tab_outer {
-    background: #a0ccec;
+    background: #4986d6;
     font-weight: bold;
 }
 
@@ -1243,11 +1258,12 @@ ul.guestbook {
 
 .edu_by .ajax__tab_body {
     font-size: 1em;
-    border: 2px solid #a0ccec;
+    border: 2px solid #becddd;
     padding: 1em;
-    background: rgba(255, 255, 255, 0.726);
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    box-shadow: 10px 8px 10px 5px #d7e1ec79;
 }
-
 
 
 #content .ajax__tab_body h1 {
