@@ -1763,6 +1763,10 @@ body.colorSiteBlue #optMenu .item-settings {
     background: #C8E8FF;
   }
 
+  #body.col-xs-12 {
+    width: 100%;
+  }
+
   #h_menu .level_0 {
     margin: 0;
   }
@@ -1922,7 +1926,7 @@ body.colorSiteBlue #optMenu .item-settings {
 
   #logo_image {
     float: none;
-    text-align: left;
+    /* text-align: left; */
   }
 
   #logo_image img {
@@ -1967,8 +1971,8 @@ body.colorSiteBlue #optMenu .item-settings {
   .ajax__tab_outer {
     display: block;
     border-radius: 0;
-    width: 70%;
-    max-width: 500px;
+    width: 100%;
+    /* max-width: 500px; */
     min-width: 243px;
   }
 
@@ -2130,11 +2134,23 @@ body.colorSiteBlue #optMenu .item-settings {
   .edu_by .ajax__tab_header>span {
     display: block;
   }
+
+  #footer > .row > div.col-xs-12.col-sm-4 {
+    position: static;
+  }
 }
 
 @media screen and (max-width: 991px) {
   .tbl {
     min-width: 650px;
+  }
+
+  #logo {
+    max-height: unset;
+  }
+
+  #logo_image {
+    position: static;
   }
 }
 
