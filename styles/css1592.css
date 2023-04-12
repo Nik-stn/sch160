@@ -1457,6 +1457,10 @@ hr {
     /* width: 100%; */
 }
 
+#body.col-xs-12 {
+    width: 100%;
+}
+
 .col-xs-12.slider-bx {
     width: 100%;
 }

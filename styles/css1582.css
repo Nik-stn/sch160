@@ -53,7 +53,8 @@
 }
 
 .buttons-switching-state:hover {
-  background: #288AC8;
+  background: #023379;
+  transition: all .3s linear;
 }
 
 .buttons-switching-state:hover .glyphicon {

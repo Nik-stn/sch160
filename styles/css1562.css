@@ -24,11 +24,12 @@ ul.bxslider {
 .slider-img {
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     margin: 0 auto;
     max-height: 400px;
     overflow: hidden;
     position: relative;
+    width: 100%;
 }
 
 .slider-img:before {
@@ -137,7 +138,8 @@ ul.bxslider {
 }
 
 .bx-wrapper .bx-controls-direction a:hover {
-    opacity: .5
+    opacity: .5;
+    transition: all .3s linear;
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {

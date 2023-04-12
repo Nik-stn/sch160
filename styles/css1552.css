@@ -176,6 +176,11 @@ body,
     top: 27px;
 }
 
+#logo_image:hover {
+    opacity: 0.7;
+    transition: all .3s linear;
+}
+
 #logo_image img {
     display: inline-block;
     width: auto;
@@ -350,7 +355,9 @@ body,
 
 #lng>span:hover,
 #lng>a:hover {
-    background: #288AC8;
+    background: #023379;
+    color: #fff;
+    transition: all .3s linear;
 }
 
 #lng>span span {
@@ -426,8 +433,9 @@ body,
 
 #rss_top_link a:hover,
 #site_map_link a:hover {
-    background-color: #288AC8;
+    background-color: #023379;
     color: #fff;
+    transition: all .3s linear;
 }
 
 
