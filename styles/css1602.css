@@ -36,6 +36,11 @@
     height: 0;
 }
 
+.owl-item.active>a:hover {
+ opacity: .7;
+ transition: all .3s linear;
+}
+
 .owl-carousel .owl-stage-outer {
     position: relative;
     overflow: hidden;

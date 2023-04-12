@@ -531,6 +531,11 @@ body,
     background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
 
+.wrapper.attention-banners.banners>a:hover {
+    opacity: .7;
+    transition: all .3s linear;
+}
+
 .aside_box>.wrapper.no_bg {
     background: 0;
 }
@@ -711,6 +716,11 @@ h1,
     width: 100px;
     padding: 5px;
     margin-right: 15px;
+}
+
+.excerpt_preview>a:hover {
+    opacity: .7;
+    transition: all .3s linear;
 }
 
 .excerpt_preview img {
@@ -1263,8 +1273,10 @@ ul.guestbook {
 }
 
 .link-button:hover {
-    background: #d1ecff;
+    background: #335e96;
     text-decoration: none;
+    color: #fff;
+    transition: all .3s linear;
 }
 
 
