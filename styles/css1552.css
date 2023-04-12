@@ -1230,8 +1230,9 @@ ul.guestbook {
 }
 
 .ya-site-form__submit:hover {
-    background-color: #E2F3FF;
+    background-color: #335e96;
     cursor: pointer;
+    transition: all .3s linear;
 }
 
 
