@@ -5,7 +5,10 @@
 /*                  */
 /* **************** */
 
-/* #optMenu,body{display:none;} */
+#optMenu {
+  display: none
+}
+
 #normalVersion,
 #settings,
 #versionForVisuallyImpaired {

@@ -1295,6 +1295,7 @@ body {
     color: #333;
     /* бесшовный фон */
     background: url(../back/i.jpg) ;
+    /* background: url(main.aspx?guid=45793); ссылка на фон  web perspective */
 }
 
 input,button,select,textarea {
