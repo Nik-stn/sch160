@@ -2155,6 +2155,8 @@ body.colorSiteBlue #optMenu .item-settings {
   div#logo_image {
     position: static;
   }
+
+  
 }
 
 @media only screen and (max-width: 1199px) {
@@ -2164,6 +2166,16 @@ body.colorSiteBlue #optMenu .item-settings {
 
   #optMenu .wrapperr>div {
     border-right: none;
+  }
+  .popular .level_0 li {
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .popular .level_0 li {
+    font-size: 13px;
   }
 }
 
