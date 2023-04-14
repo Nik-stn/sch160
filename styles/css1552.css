@@ -34,8 +34,6 @@ a:hover {
 
 body {
     /* Фон сайта */
-    background: #EFEFEF;
-
     width: 100%;
     height: 100%;
     font-family: Tahoma, Arial, sans-serif;
@@ -506,7 +504,7 @@ body,
 
 #body {
     clear: both;
-    margin-top: .5em;
+    margin-top: 0;
 }
 
 #body>.wrapper {
@@ -564,9 +562,11 @@ body,
 }
 
 #region_2_default {
-    /*background: linear-gradient(310deg, transparent 60%, #D1ECFF) no-repeat; */
-    background-size: 400px 600px;
+    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    /* background-size: 400px 600px; */
     border-radius: 5px 0 0 0;
+    border: 2px solid #becddd;
+    box-shadow: 10px 8px 10px 5px #d7e1ec79;
 }
 
 #region_2_default .content_box {
@@ -875,7 +875,7 @@ ul.rss {
 /*--------------*/
 .section_menu {
     line-height: 1.4em;
-    padding: 0 0.4em;
+    padding: .8em 0.4em .3em;
 }
 
 .section_menu .active>span {
@@ -912,7 +912,23 @@ ul.rss {
 }
 
 .popular .level_0 {
-    list-style-type: square;
+    list-style-type: none;
+}
+
+.popular .level_0 li {
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 10px solid #288ac8;
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1), -2px -2px 5px 0 rgba(0,0,0,.1), 2px 2px 5px 0 rgba(0,0,0,.1), -2px 2px 5px 0 rgba(0,0,0,.1);
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s all linear;
+}
+
+.popular .level_0 li:hover {
+    border-left: 10px solid transparent;
+    border-right: 10px solid #288ac8;
 }
 
 /* ------------ */

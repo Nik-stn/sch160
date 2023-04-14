@@ -1295,7 +1295,7 @@ body {
     color: #333;
     /* бесшовный фон */
     background: url(../back/i.jpg) ;
-    /* background: url(main.aspx?guid=45793); ссылка на фон  web perspective */
+    /* background: url(sm_full.aspx?guid=45803); ссылка на фон  web perspective */
 }
 
 input,button,select,textarea {
@@ -1464,6 +1464,10 @@ hr {
 
 .col-xs-12.slider-bx {
     width: 100%;
+}
+
+.col-xs-12.slider-bx .content_box {
+    margin-bottom: 15px;
 }
 
 .col-xs-11 {

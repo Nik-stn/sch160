@@ -204,7 +204,7 @@
 
 .glyphicon.glyphicon-home {
   width: 40px;
-  height: 38px;
+  height: 37px;
   position: absolute;
   left: 5px;
   top: -24px;
@@ -241,28 +241,28 @@
   top: 6px;
   left: 0;
   font-size: 35px;
-  color: #288ac8;
+  color: #003278;
 }
 
 .glyphicon-play:before {
   top: -1.6em;
   font-size: 12px;
   left: -34px;
-  color: #a0ccec;
+  color: #288AC8;
 }
 
 .glyphicon-pause:before {
   top: -1.4em;
   left: -25px;
   font-size: 14px;
-  color: #a0ccec;
+  color: #288AC8;
 }
 
 .glyphicon-play:hover:before,
 .glyphicon-pause:hover:before,
 .active>.glyphicon-play:before,
 .active>.glyphicon-pause:before {
-  color: #288ac8;
+  color: #003278;
 }
 
 /*--------------------black and white version--------------------------------------------*/
@@ -1014,7 +1014,7 @@ body.colorSiteBlue .glyphicon-play:hover:before,
 body.colorSiteBlue .glyphicon-pause:hover:before,
 body.colorSiteBlue .glyphicon-play:before,
 body.colorSiteBlue .glyphicon-pause:before {
-  color: #063462;
+  color: #003278;
 }
 
 body.colorSiteBlue #main_nav.active-main_nav .level_1 li:hover a,
@@ -1853,7 +1853,7 @@ body.colorSiteBlue #optMenu .item-settings {
     text-align: center;
   }
 
-  .edu_by .ajax__tab_body {
+  .edu_by .ajax__tab_body {@media
     padding: 20px 10px 0 10px;
     border-top: 2px solid #d1ecff;
     border-left: none;
@@ -1871,26 +1871,26 @@ body.colorSiteBlue #optMenu .item-settings {
   }
 
   .bx-wrapper .bx-controls-direction a {
-    width: 0;
+    /* width: 0;
     height: 0;
-    bottom: -8px;
+    bottom: -8px; */
   }
 
   .bx-wrapper .bx-prev {
-    right: 100px;
+    left: 10px;
     margin: 0;
     left: initial;
   }
 
   .bx-wrapper .bx-next {
-    right: 77px;
+    right: 10px;
     margin: 0;
   }
 
   .glyphicon-chevron-left:before,
   .glyphicon-chevron-right:before {
-    font-size: 14px;
-    top: -18px;
+    /* font-size: 14px; */
+    /* top: -18px; */
   }
 
   .content_box {
@@ -2148,11 +2148,11 @@ body.colorSiteBlue #optMenu .item-settings {
     min-width: 650px;
   }
 
-  #logo {
+  div#logo {
     max-height: unset;
   }
 
-  #logo_image {
+  div#logo_image {
     position: static;
   }
 }
