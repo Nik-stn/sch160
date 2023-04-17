@@ -2167,14 +2167,14 @@ body.colorSiteBlue #optMenu .item-settings {
   #optMenu .wrapperr>div {
     border-right: none;
   }
-  .popular .level_0 li {
+  .popular.section_menu .level_0 li {
     font-size: 18px;
     letter-spacing: 0;
   }
 }
 
 @media screen and (max-width: 991px) {
-  .popular .level_0 li {
+  .popular.section_menu .level_0 li {
     font-size: 13px;
   }
 }
