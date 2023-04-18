@@ -915,6 +915,11 @@ ul.rss {
     list-style-type: none;
 }
 
+.button a img:hover {
+        opacity: .5;
+        transition: all .3s linear;
+}
+
 .popular .level_0 li {
     padding: 7px 20px;
     margin-bottom: 10px;
