@@ -2156,7 +2156,10 @@ body.colorSiteBlue #optMenu .item-settings {
     position: static;
   }
 
-  
+  div.youtube object {
+    width: 100%;
+}
+
 }
 
 @media only screen and (max-width: 1199px) {
