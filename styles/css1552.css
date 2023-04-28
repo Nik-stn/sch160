@@ -114,17 +114,18 @@ body,
     min-width: 32px;
     height: 50px;
     border-radius: 4px;
-    background: #D1ECFF;
+    background: #90d7ff;
     line-height: 50px;
     text-align: center;
     cursor: pointer;
-    padding: 0 1em 0 55px;
+    padding: 10px;
     opacity: 0.6;
 }
 
 #scroll_up:hover {
     opacity: 1;
     box-shadow: 0 0 50px #ded7d7;
+    transition: all .3s linear;
 }
 
 

@@ -226,10 +226,9 @@
 }
 
 .glyphicon-circle-arrow-up:before {
-  top: -22px;
-  left: -40px;
   font-size: 30px;
-  color: #288ac8;
+  color: #003278;
+  position: static;
 }
 
 .active-main_nav .home-icon-active .glyphicon-home {
